@@ -44,16 +44,16 @@ This is an *adaptation*, not an exact replication.
 
 ```text
 lightgcn-repro/
-├── data/ml-latest-small/         # MovieLens dataset (not tracked in git)
+├── data/ml-latest-small/        
 ├── src/
-│   ├── data.py                   # Loading, implicit conversion, normalized adjacency
-│   ├── models.py                 # BPR-MF and LightGCN
-│   ├── train.py                  # Single-run training/evaluation (20 epochs)
-│   ├── run_experiments.py        # Multi-seed experiments with curves
-│   └── tune.py                   # Hyperparameter search on a validation split
-├── results_varysplit/            # Default hyperparameters (curves.csv, summary.csv, curves.png)
-├── results_tuned/                # Tuned hyperparameters
-├── results_tuning2/              # Tuning grid output
+│   ├── data.py                 
+│   ├── models.py               
+│   ├── train.py                
+│   ├── run_experiments.py        
+│   └── tune.py                 
+├── results_varysplit/          
+├── results_tuned/                
+├── results_tuning2/             
 ├── requirements.txt
 └── README.md
 ```
