@@ -150,7 +150,7 @@ Full curves: `results_tuned/curves.csv` and `results_tuned/curves.png`. Numbers 
 ## 9. How to Run
 
 ```bash
-git clone <your-repo-url>
+git clone github.com/manish11111111/lightgcn-repro
 cd lightgcn-repro
 python -m venv venv
 venv\Scripts\activate          # Windows  (Mac/Linux: source venv/bin/activate)
